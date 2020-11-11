@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD7C049A25529BE0001AC8DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C049925529BE0001AC8DA /* AppDelegate.swift */; };
+		DD7C049C25529BE0001AC8DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C049B25529BE0001AC8DA /* SceneDelegate.swift */; };
+		DD7C049E25529BE0001AC8DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C049D25529BE0001AC8DA /* ViewController.swift */; };
+		DD7C04A125529BE0001AC8DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7C049F25529BE0001AC8DA /* Main.storyboard */; };
+		DD7C04A325529BE3001AC8DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7C04A225529BE3001AC8DA /* Assets.xcassets */; };
+		DD7C04A625529BE3001AC8DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7C04A425529BE3001AC8DA /* LaunchScreen.storyboard */; };
+		DD7C04B325529E66001AC8DA /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7C04B225529E66001AC8DA /* Kingfisher.framework */; };
+		DD7C04BA2552B78E001AC8DA /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C04B92552B78E001AC8DA /* TestViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07C10089DEE4E64AE71DC7F0 /* Pods_Kingfisher____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Kingfisher____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5C84BE972B9A7B4058C55F /* Pods-Kingfisher源码分析.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kingfisher源码分析.release.xcconfig"; path = "Target Support Files/Pods-Kingfisher源码分析/Pods-Kingfisher源码分析.release.xcconfig"; sourceTree = "<group>"; };
+		DD7C049625529BE0001AC8DA /* Kingfisher源码分析.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kingfisher源码分析.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7C049925529BE0001AC8DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD7C049B25529BE0001AC8DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD7C049D25529BE0001AC8DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD7C04A025529BE0001AC8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD7C04A225529BE3001AC8DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD7C04A525529BE3001AC8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD7C04A725529BE3001AC8DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7C04B225529E66001AC8DA /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7C04B92552B78E001AC8DA /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		FA41F7121CD0635E8B062D64 /* Pods-Kingfisher源码分析.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kingfisher源码分析.debug.xcconfig"; path = "Target Support Files/Pods-Kingfisher源码分析/Pods-Kingfisher源码分析.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD7C049325529BE0001AC8DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7C04B325529E66001AC8DA /* Kingfisher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74BEEB08C1E900A9946B26E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA41F7121CD0635E8B062D64 /* Pods-Kingfisher源码分析.debug.xcconfig */,
+				8B5C84BE972B9A7B4058C55F /* Pods-Kingfisher源码分析.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD7C048D25529BE0001AC8DA = {
+			isa = PBXGroup;
+			children = (
+				DD7C049825529BE0001AC8DA /* Kingfisher源码分析 */,
+				DD7C049725529BE0001AC8DA /* Products */,
+				74BEEB08C1E900A9946B26E5 /* Pods */,
+				E88F7FBEC01468A06D82D537 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD7C049725529BE0001AC8DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD7C049625529BE0001AC8DA /* Kingfisher源码分析.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD7C049825529BE0001AC8DA /* Kingfisher源码分析 */ = {
+			isa = PBXGroup;
+			children = (
+				DD7C049925529BE0001AC8DA /* AppDelegate.swift */,
+				DD7C049B25529BE0001AC8DA /* SceneDelegate.swift */,
+				DD7C049D25529BE0001AC8DA /* ViewController.swift */,
+				DD7C049F25529BE0001AC8DA /* Main.storyboard */,
+				DD7C04A225529BE3001AC8DA /* Assets.xcassets */,
+				DD7C04A425529BE3001AC8DA /* LaunchScreen.storyboard */,
+				DD7C04A725529BE3001AC8DA /* Info.plist */,
+				DD7C04B92552B78E001AC8DA /* TestViewController.swift */,
+			);
+			path = "Kingfisher源码分析";
+			sourceTree = "<group>";
+		};
+		E88F7FBEC01468A06D82D537 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD7C04B225529E66001AC8DA /* Kingfisher.framework */,
+				07C10089DEE4E64AE71DC7F0 /* Pods_Kingfisher____.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD7C049525529BE0001AC8DA /* Kingfisher源码分析 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7C04AA25529BE3001AC8DA /* Build configuration list for PBXNativeTarget "Kingfisher源码分析" */;
+			buildPhases = (
+				0BFF45504847CB8E8D00CE01 /* [CP] Check Pods Manifest.lock */,
+				DD7C049225529BE0001AC8DA /* Sources */,
+				DD7C049325529BE0001AC8DA /* Frameworks */,
+				DD7C049425529BE0001AC8DA /* Resources */,
+				0CC97CE2EC9B5A9ECDDC71ED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kingfisher源码分析";
+			productName = "Kingfisher源码分析";
+			productReference = DD7C049625529BE0001AC8DA /* Kingfisher源码分析.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD7C048E25529BE0001AC8DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					DD7C049525529BE0001AC8DA = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = DD7C049125529BE0001AC8DA /* Build configuration list for PBXProject "Kingfisher源码分析" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD7C048D25529BE0001AC8DA;
+			productRefGroup = DD7C049725529BE0001AC8DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD7C049525529BE0001AC8DA /* Kingfisher源码分析 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD7C049425529BE0001AC8DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7C04A625529BE3001AC8DA /* LaunchScreen.storyboard in Resources */,
+				DD7C04A325529BE3001AC8DA /* Assets.xcassets in Resources */,
+				DD7C04A125529BE0001AC8DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BFF45504847CB8E8D00CE01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kingfisher源码分析-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0CC97CE2EC9B5A9ECDDC71ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kingfisher源码分析/Pods-Kingfisher源码分析-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kingfisher源码分析/Pods-Kingfisher源码分析-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD7C049225529BE0001AC8DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7C049E25529BE0001AC8DA /* ViewController.swift in Sources */,
+				DD7C049A25529BE0001AC8DA /* AppDelegate.swift in Sources */,
+				DD7C04BA2552B78E001AC8DA /* TestViewController.swift in Sources */,
+				DD7C049C25529BE0001AC8DA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD7C049F25529BE0001AC8DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7C04A025529BE0001AC8DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD7C04A425529BE3001AC8DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7C04A525529BE3001AC8DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD7C04A825529BE3001AC8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD7C04A925529BE3001AC8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD7C04AB25529BE3001AC8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA41F7121CD0635E8B062D64 /* Pods-Kingfisher源码分析.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kingfisher源码分析/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itbox.Kingfisher----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD7C04AC25529BE3001AC8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B5C84BE972B9A7B4058C55F /* Pods-Kingfisher源码分析.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kingfisher源码分析/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itbox.Kingfisher----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD7C049125529BE0001AC8DA /* Build configuration list for PBXProject "Kingfisher源码分析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7C04A825529BE3001AC8DA /* Debug */,
+				DD7C04A925529BE3001AC8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7C04AA25529BE3001AC8DA /* Build configuration list for PBXNativeTarget "Kingfisher源码分析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7C04AB25529BE3001AC8DA /* Debug */,
+				DD7C04AC25529BE3001AC8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD7C048E25529BE0001AC8DA /* Project object */;
+}
